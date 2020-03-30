@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/hexpm/dt/bootlegger" alt="Downloads"/>
 <img src="/bootlegger.png" alt="bootlegger logo"/>
 
-# Bootlegger: A pure elixir delivery tool for delivery from distillery.
+# Bootlegger: A pure elixir delivery tool for distillery releases and upgrades.
 <!-- end_header -->
 Bootlegger is a tool to help with deploying distillery releases to an environment. It is written in pure
 elixir to avoid issues caused by bash, and environment differences.
@@ -21,9 +21,10 @@ Metrics are implemented via telemetry.
 ## Installation
 
 Add the following to the `deps` block in `mix.exs`:
+```elixir
     {:distillery, "~>2.0.0"},
     {:bootlegger, "~>0.0.1"}
-
+```
 ## Configuration
 
 # TODO
