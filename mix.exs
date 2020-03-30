@@ -68,7 +68,10 @@ defmodule Bootlegger.MixProject do
       {:ex_doc, "~> 0.21", only: :dev, runtime: false},
       {:mock, "~> 0.3.0", only: :test},
       {:mojito, "~> 0.5.0"},
-      {:telemetry, "~> 0.4.1"}
+      {:telemetry, "~> 0.4.1"},
+      {:ex_aws, "~> 2.0"},
+      {:ex_aws_s3, "~> 2.0"},
+      {:ex_aws_ec2, "~> 2.0"}
     ]
   end
 end
